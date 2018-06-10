@@ -1,5 +1,4 @@
 THTD_MAX_LEVEL = 10
-THTD_MAX_STAR = 5
 
 thtd_exp_table={200,500,900,1400,2000,2700,3500,4400,5400}
 thtd_exp_star_table={1,2/3,1/3,1/5,1/15}
@@ -72,18 +71,38 @@ towerNameList = {
 	["item_0051"]={["kind"]="byakuren",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 圣白莲
 	["item_0052"]={["kind"]="miko",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=true}, -- 丰聪耳神子
 	--["item_0053"]={["kind"]="kokoro",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=true}, -- 秦心
-	--["item_0056"]={["kind"]="star",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 斯塔·萨菲雅
-	--["item_0057"]={["kind"]="sunny",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 桑妮·米尔克
-	--["item_0058"]={["kind"]="luna",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 露娜·切露德
+	--["item_0054"]={["kind"]="yuugi",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=true}, -- 星熊勇仪*
+	--["item_0055"]={["kind"]="suika",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=true}, -- 伊吹萃香*
+	["item_0056"]={["kind"]="star",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 斯塔·萨菲雅
+	["item_0057"]={["kind"]="sunny",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 桑妮·米尔克
+	["item_0058"]={["kind"]="luna",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 露娜·切露德
+	--["item_0059"]={["kind"]="alice",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=true}, -- 爱丽丝·玛格特罗依德*
+	--["item_0060"]={["kind"]="wriggle",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=false}, -- 莉格露·奈特巴格*
 	["item_0061"]={["kind"]="keine",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 上白泽慧音
+	--["item_0062"]={["kind"]="inaba",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=false}, -- 因幡帝*
+	--["item_0064"]={["kind"]="shikieiki",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 四季映姬·亚玛萨那度*
 	--["item_0065"]={["kind"]="sumireko",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 宇佐见堇子
+	--["item_0066"]={["kind"]="renko",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=false}, -- 宇佐见莲子*
+	--["item_0067"]={["kind"]="maribel",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=false}, -- 玛艾露贝莉·赫恩*
 	["item_0069"]={["kind"]="toramaru",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=false}, -- 寅丸星
 	--["item_0070"]={["kind"]="mamizou",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 二岩猯藏
+	--["item_0071"]={["kind"]="seija",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 鬼人正邪*
+	--["item_0072"]={["kind"]="shinmyoumaru",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 少名针妙丸*
+	--["item_0073"]={["kind"]="junko",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 纯狐*
+	--["item_0074"]={["kind"]="hecatia",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 赫卡提亚·拉碧斯拉祖利*
+	--["item_0075"]={["kind"]="clownpiece",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 克劳恩皮丝*
+	--["item_0076"]={["kind"]="kishin",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 稀神探女*
+	--["item_0077"]={["kind"]="matara",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 摩多罗隐岐奈*
+	--["item_0078"]={["kind"]="sariel",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 萨丽爱尔*
 	--["item_0079"]={["kind"]="mima",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 魅魔
 	["item_0080"]={["kind"]="shinki",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 神绮
+	--["item_0081"]={["kind"]="gengetu",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 幻月*
 	--["item_0083"]={["kind"]="elly",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 艾丽
+	--["item_0085"]={["kind"]="yumemi",["quality"]=4,["hasPortrait"]=true,["hasVoice"]=false}, -- 冈崎梦美*
 	["item_0088"]={["kind"]="sizuha",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 秋静叶
-	--["item_0092"]={["kind"]="medicine",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 梅蒂欣·梅兰可莉
+	--["item_0091"]={["kind"]="hina",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=false}, -- 键山雏*
+	["item_0092"]={["kind"]="medicine",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 梅蒂欣·梅兰可莉
+	--["item_0093"]={["kind"]="kyouko",["quality"]=2,["hasPortrait"]=true,["hasVoice"]=true}, -- 幽谷响子*
 	["item_0094"]={["kind"]="soga",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=true}, -- 苏我屠自古
 	["item_0095"]={["kind"]="futo",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 物部布都
 	["item_0096"]={["kind"]="seiga",["quality"]=3,["hasPortrait"]=true,["hasVoice"]=false}, -- 霍青娥
@@ -548,6 +567,34 @@ thtd_power_table =
 		[4] = {400,7.0},
 		[5] = {2000,12},
 	},
+	["medicine"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
+	["luna"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
+	["star"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
+	["sunny"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
 }
 
 -- 这个表是每颗星增加多少攻击
@@ -977,28 +1024,56 @@ thtd_attack_table =
 		[4] = {400,7.0},
 		[5] = {2000,12},
 	},
+	["medicine"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
+	["luna"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
+	["star"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
+	["sunny"] = {
+		[1] = {15,2},
+		[2] = {60,3.5},
+		[3] = {160,5},
+		[4] = {375,6.5},
+		[5] = {1800,10},
+	},
 }
 
 -- 这个表是用于解封技能
 thtd_ability_table = 
 {
 	["lily"] = {
-		[1] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 0,["ogre_magi_multicast"] = 0},
-		[2] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 0,["ogre_magi_multicast"] = 0},
-		[3] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 0,["ogre_magi_multicast"] = 1},
-		[4] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 1,["ogre_magi_multicast"] = 2},
-		[5] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 1,["ogre_magi_multicast"] = 3},
+		[1] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 0},
+		[2] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 0},
+		[3] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 0},
+		[4] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 1},
+		[5] = {["thtd_lily_01"] = 1,["thtd_lily_02"] = 1},
 	},
 	["nazrin"] = {
-		[1] = {["thtd_nazrin_01"] = 1,["thtd_nazrin_02"] = 0},
-		[2] = {["thtd_nazrin_01"] = 1,["thtd_nazrin_02"] = 0},
-		[3] = {["thtd_nazrin_01"] = 1,["thtd_nazrin_02"] = 1},
-		[4] = {["thtd_nazrin_01"] = 1,["thtd_nazrin_02"] = 1},
-		[5] = {["thtd_nazrin_01"] = 1,["thtd_nazrin_02"] = 1},
+		[1] = {["thtd_nazrin_01"] = 1},
+		[2] = {["thtd_nazrin_01"] = 1},
+		[3] = {["thtd_nazrin_01"] = 1},
+		[4] = {["thtd_nazrin_01"] = 1},
+		[5] = {["thtd_nazrin_01"] = 1},
 	},
 	["minoriko"] = {
 		[1] = {["thtd_minoriko_01"] = 1,["thtd_minoriko_02"] = 0},
-		[2] = {["thtd_minoriko_01"] = 1,["thtd_minoriko_02"] = 1},
+		[2] = {["thtd_minoriko_01"] = 1,["thtd_minoriko_02"] = 0},
 		[3] = {["thtd_minoriko_01"] = 1,["thtd_minoriko_02"] = 1},
 		[4] = {["thtd_minoriko_01"] = 1,["thtd_minoriko_02"] = 1},
 		[5] = {["thtd_minoriko_01"] = 1,["thtd_minoriko_02"] = 1},
@@ -1044,14 +1119,6 @@ thtd_ability_table =
 		[3] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 0,["thtd_cirno_03"] = 0,["thtd_cirno_04"] = 0},
 		[4] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 1,["thtd_cirno_03"] = 0,["thtd_cirno_04"] = 0},
 		[5] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 1,["thtd_cirno_03"] = 0,["thtd_cirno_04"] = 0},
-	},
-	["cirno_ex"] = 
-	{
-		[1] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 0,["thtd_cirno_03"] = 0,["thtd_cirno_04"] = 0},
-		[2] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 0,["thtd_cirno_03"] = 0,["thtd_cirno_04"] = 0},
-		[3] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 0,["thtd_cirno_03"] = 1,["thtd_cirno_04"] = 0},
-		[4] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 1,["thtd_cirno_03"] = 1,["thtd_cirno_04"] = 0},
-		[5] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 1,["thtd_cirno_03"] = 1,["thtd_cirno_04"] = 1},
 	},
 	["letty"] = {
 		[1] = {["thtd_letty_01"] = 1,["thtd_letty_02"] = 0},
@@ -1185,6 +1252,14 @@ thtd_ability_table =
 		[3] = {["thtd_daiyousei_01"] = 1,["thtd_daiyousei_02"] = 1,["thtd_daiyousei_03"] = 1,["thtd_daiyousei_04"] = 0},
 		[4] = {["thtd_daiyousei_01"] = 1,["thtd_daiyousei_02"] = 1,["thtd_daiyousei_03"] = 1,["thtd_daiyousei_04"] = 0},
 		[5] = {["thtd_daiyousei_01"] = 1,["thtd_daiyousei_02"] = 1,["thtd_daiyousei_03"] = 1,["thtd_daiyousei_04"] = 1},
+	},
+	["cirno_ex"] = 
+	{
+		[1] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 0,["thtd_cirno_03"] = 0,["thtd_cirno_04"] = 0},
+		[2] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 0,["thtd_cirno_03"] = 0,["thtd_cirno_04"] = 0},
+		[3] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 0,["thtd_cirno_03"] = 1,["thtd_cirno_04"] = 0},
+		[4] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 1,["thtd_cirno_03"] = 1,["thtd_cirno_04"] = 0},
+		[5] = {["thtd_cirno_01"] = 1,["thtd_cirno_02"] = 1,["thtd_cirno_03"] = 1,["thtd_cirno_04"] = 1},
 	},
 	["remilia"] = 
 	{
@@ -1381,11 +1456,11 @@ thtd_ability_table =
 	},
 
 	["toramaru"] = {
-		[1] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 0,["thtd_toramaru_03"] = 0,["thtd_toramaru_04"] = 0},
-		[2] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 1,["thtd_toramaru_03"] = 0,["thtd_toramaru_04"] = 0},
-		[3] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 1,["thtd_toramaru_03"] = 1,["thtd_toramaru_04"] = 0},
-		[4] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 1,["thtd_toramaru_03"] = 1,["thtd_toramaru_04"] = 0},
-		[5] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 1,["thtd_toramaru_03"] = 1,["thtd_toramaru_04"] = 1},
+		[1] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 0,["thtd_toramaru_03"] = 0},
+		[2] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 0,["thtd_toramaru_03"] = 0},
+		[3] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 1,["thtd_toramaru_03"] = 0},
+		[4] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 1,["thtd_toramaru_03"] = 0},
+		[5] = {["thtd_toramaru_01"] = 1,["thtd_toramaru_02"] = 1,["thtd_toramaru_03"] = 1},
 	},
 
 	["shinki"] = {
@@ -1445,11 +1520,43 @@ thtd_ability_table =
 	},
 
 	["keine"] = {
-		[1] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 0,["thtd_keine_03"] = 0},
-		[2] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 0,["thtd_keine_03"] = 0},
-		[3] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 0},
-		[4] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 1},
-		[5] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 1},
+		[1] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 0,["thtd_keine_04"] = 0},
+		[2] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 0,["thtd_keine_04"] = 0},
+		[3] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 1,["thtd_keine_04"] = 0},
+		[4] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 1,["thtd_keine_04"] = 1},
+		[5] = {["thtd_keine_01"] = 1,["thtd_keine_02"] = 1,["thtd_keine_03"] = 1,["thtd_keine_04"] = 1},
+	},
+
+	["medicine"] = {
+		[1] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 0},
+		[2] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 0},
+		[3] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 1},
+		[4] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 1},
+		[5] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 1},
+	},
+
+	["luna"] = {
+		[1] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 0,["thtd_luna_03"] = 0},
+		[2] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 0,["thtd_luna_03"] = 0},
+		[3] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1,["thtd_luna_03"] = 0},
+		[4] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1,["thtd_luna_03"] = 0},
+		[5] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1,["thtd_luna_03"] = 0},
+	},
+
+	["sunny"] = {
+		[1] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 0,["thtd_sunny_03"] = 0},
+		[2] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 0,["thtd_sunny_03"] = 0},
+		[3] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1,["thtd_sunny_03"] = 0},
+		[4] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1,["thtd_sunny_03"] = 0},
+		[5] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1,["thtd_sunny_03"] = 0},
+	},
+
+	["star"] = {
+		[1] = {["thtd_star_01"] = 1,["thtd_star_02"] = 0,["thtd_star_03"] = 0},
+		[2] = {["thtd_star_01"] = 2,["thtd_star_02"] = 0,["thtd_star_03"] = 0},
+		[3] = {["thtd_star_01"] = 3,["thtd_star_02"] = 1,["thtd_star_03"] = 0},
+		[4] = {["thtd_star_01"] = 4,["thtd_star_02"] = 1,["thtd_star_03"] = 0},
+		[5] = {["thtd_star_01"] = 5,["thtd_star_02"] = 1,["thtd_star_03"] = 0},
 	},
 }		
 
@@ -1475,14 +1582,16 @@ thtd_combo_table =
 	["nue_minamitsu"] = {"minamitsu","nue"},
 	["futo_soga"] = {"futo","soga"},
 	["yoshika_seiga"] = {"yoshika","seiga"},
+	["mokou_keine"] = {"mokou","keine"},
+	["luna_star_sunny"] = {"luna","star","sunny"},
 }
 
 thtd_ability_minoriko_star_up_table = 
 {
-	[2] = 40,
-	[3] = 160,
-	[4] = 500,
-	[5] = 22000,
+	[2] = 270,
+	[3] = 540,
+	[4] = 900,
+	[5] = 1260,
 }
 
 thtd_ability_sizuha_star_up_table = 
@@ -1539,14 +1648,12 @@ function CDOTA_BaseNPC:THTD_InitExp()
 				if GameRules:IsGamePaused() then return 0.03 end
 				if self:HasModifier("modifier_touhoutd_release_hidden") then return 1.0 end
 				if SpawnSystem:GetWave() > 51 then return nil end
-				if self.thtd_star < THTD_MAX_STAR then
+				if self.thtd_star < 5 then
 					time_count = time_count + 1 * ( (self:FindAbilityByName("ability_common_star_up_speed"):GetLevel() - 1) * 0.1 + 1 )
 					if self.thtd_isChanged == true then
 						time_count = 0
 						self.thtd_isChanged = false
 					end
-					
-					local aki_star_up = false
 					
 					if self:GetUnitName() == "minoriko" then
 						SendOverheadEventMessage(self:GetPlayerOwner(), OVERHEAD_ALERT_OUTGOING_DAMAGE, self, thtd_ability_minoriko_star_up_table[self.thtd_star+1] - time_count, self:GetPlayerOwner() )
@@ -1556,7 +1663,6 @@ function CDOTA_BaseNPC:THTD_InitExp()
 							self:THTD_DestroyLevelEffect()
 							self:THTD_CreateLevelEffect()
 							time_count = 0
-							aki_star_up = true
 						end
 					else
 						SendOverheadEventMessage(self:GetPlayerOwner(), OVERHEAD_ALERT_OUTGOING_DAMAGE, self, thtd_ability_sizuha_star_up_table[self.thtd_star+1] - time_count, self:GetPlayerOwner() )
@@ -1566,22 +1672,8 @@ function CDOTA_BaseNPC:THTD_InitExp()
 							self:THTD_DestroyLevelEffect()
 							self:THTD_CreateLevelEffect()
 							time_count = 0
-							aki_star_up = true
 						end
 					end
-					
-					if aki_star_up then
-						if self.thtd_star >= 3 then
-							CustomGameEventManager:Send_ServerToPlayer( self:GetPlayerOwner() , "show_message", {msg=self:GetUnitName().." reached "..self.thtd_star.." Stars!", duration=5, params={count=1}, color="#f00"} )
-						end
-
-						self:EmitSound("Sound_THTD.thtd_star_up")
-						local effectIndex = ParticleManager:CreateParticle("particles/heroes/byakuren/ability_byakuren_02.vpcf", PATTACH_CUSTOMORIGIN, self)
-						ParticleManager:SetParticleControl(effectIndex, 0, self:GetOrigin())
-						ParticleManager:SetParticleControl(effectIndex, 1, self:GetOrigin())
-						ParticleManager:DestroyParticleSystem(effectIndex,false)
-					end
-					
 					if self:HasModifier("modifier_touhoutd_release_hidden") then
 						time_count = 0
 					end
@@ -1623,8 +1715,7 @@ function CDOTA_BaseNPC:THTD_InitExp()
 	self.thtd_star = 1
 	self.thtd_tower_damage = 0
 	self.thtd_is_ex = false
-	self.exup_count = 0
-    self.thtd_close_ai = false
+	self.thtd_close_ai = false
 	self.thtd_mana_regen = self:GetManaRegen()
 	self.thtd_mana_regen_percentage = 0
 	self.thtd_crit_chance = 0
@@ -1925,7 +2016,7 @@ function CDOTA_BaseNPC:THTD_SetStar(star)
 
 	local unitName = self:GetUnitName()
 	if self:THTD_IsTowerEx() == true then
-        unitName = unitName.."_ex"
+		unitName = unitName.."_ex"
 	end
 
 	if thtd_power_table[unitName][self.thtd_star]~=nil then
@@ -1962,7 +2053,45 @@ function CDOTA_BaseNPC:THTD_SetStar(star)
 end
 
 function CDOTA_BaseNPC:THTD_UpgradeStar()
-    self:THTD_SetStar(self.THTD_GetStar()+1)
+	local lastPower = nil
+	local lastAttack = nil
+
+	local unitName = self:GetUnitName()
+	if self:THTD_IsTowerEx() == true then
+		unitName = unitName.."_ex"
+	end
+	
+	if thtd_power_table[unitName][self.thtd_star]~=nil then
+		lastPower = thtd_power_table[unitName][self.thtd_star][1] + thtd_power_table[unitName][self.thtd_star][2] * (self:THTD_GetLevel()-1)
+	end
+	if thtd_attack_table[unitName]~=nil then
+		lastAttack = thtd_attack_table[unitName][self.thtd_star][1] + thtd_attack_table[unitName][self.thtd_star][2] * (self:THTD_GetLevel()-1)
+	end
+
+	self.thtd_star = self.thtd_star + 1
+	self.thtd_level = 1
+	self.thtd_exp = 0
+
+	if lastPower~=nil then
+		self.thtd_power = self.thtd_power + thtd_power_table[unitName][self.thtd_star][1] - lastPower
+	else
+		self.thtd_power = self.thtd_power + thtd_power_table[unitName][self.thtd_star][1]
+	end
+
+	if lastAttack~=nil then
+		self.thtd_attack = self.thtd_attack + thtd_attack_table[unitName][self.thtd_star][1] - lastAttack
+	end
+
+	self:THTD_DestroyLevelEffect()
+	self:THTD_CreateLevelEffect()
+	self:SetMana(0)
+	self:THTD_OpenAbility()
+	self:EmitSound("Sound_THTD.thtd_star_up")
+
+	local effectIndex = ParticleManager:CreateParticle("particles/heroes/byakuren/ability_byakuren_02.vpcf", PATTACH_CUSTOMORIGIN, self)
+	ParticleManager:SetParticleControl(effectIndex, 0, self:GetOrigin())
+	ParticleManager:SetParticleControl(effectIndex, 1, self:GetOrigin())
+	ParticleManager:DestroyParticleSystem(effectIndex,false)
 end
 
 	
@@ -2112,7 +2241,7 @@ function CDOTA_BaseNPC:THTD_UpgradeEx()
 	local unitName = self:GetUnitName()
 	local star = self:THTD_GetStar()
 	local level = self:THTD_GetLevel()
---[[
+
 	for k,v in pairs(thtd_ability_table[unitName]) do
 		for abilityName,level in pairs(v) do
 			if self:THTD_GetStar() == k then
@@ -2120,15 +2249,12 @@ function CDOTA_BaseNPC:THTD_UpgradeEx()
 			end
 		end
 	end
-]]--
 	unitName = self:GetUnitName().."_ex"
 
-	local index = 0
 	for k,v in pairs(thtd_ability_table[unitName]) do
-		index = index + 1
 		for abilityName,level in pairs(v) do
 			if self:THTD_GetStar() == k then
-				local ability=self:GetAbilityByIndex(index)
+				local ability=self:AddAbility(abilityName)
 				ability:SetLevel(level)
 			end
 		end
@@ -2139,12 +2265,6 @@ function CDOTA_BaseNPC:THTD_UpgradeEx()
 	self.thtd_is_ex = true
 	self:THTD_SetStar(star)
 	self:THTD_SetLevel(level)
-    if self.exup_count > 0 then
-        self.thtd_power = self.thtd_power + self.thtd_power * 0.3
-        self.thtd_attack = self.thtd_attack + self.thtd_attack * 0.3
-    end
-    self.exup_count = self.exup_count + 1
-    print("exup_count: "..self.exup_count.."\n\tpower: "..self.thtd_power.."\n\tattack: "..self.thtd_attack)
 end
 
 function CDOTA_BaseNPC:THTD_IsTowerEx()
@@ -2172,6 +2292,8 @@ local thtd_Unique_Slow_Buff =
 	"modifier_minamitsu_01_slow_buff",
 	"modifier_kogasa_upgrade_debuff",
 	"modifier_yoshika_01_slow",
+	"modifier_medicine_01_slow",
+	"modifier_star_01_slow",
 }
 
 
