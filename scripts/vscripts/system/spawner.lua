@@ -142,6 +142,14 @@ function SpawnSystem:GetWave()
 	return spawner[1].CurWave or 0
 end
 
+function SpawnSystem:SetInfWave()
+	local spawner  = SpawnSystem.AttackingSpawner
+	if spawner[1] == nil then
+		return 0
+	end
+	spawner[1].CurWave = 50
+end
+
 function SpawnSystem:StopWave(index)
 	local spawner  = SpawnSystem.AttackingSpawner
 
@@ -179,7 +187,7 @@ function SpawnSystem:InitAttackSpawn()
 	}
 	for i = 1,table.nums(spawner) do
 		if spawner[i] ~= nil then
-			-- spawner[i].CurWave = 50
+			-- spawner[i].CurWave = 15
 			spawner[i]:SetContextThink(DoUniqueString("AttackSpawn"..tostring(i)) ,
 			function() 
 

@@ -14,9 +14,9 @@ local thtd_momiji_damage_bonus =
 
 local thtd_sunny_damage_bonus =
 {
-    [3] = 0.2,
-    [4] = 0.3,
-    [5] = 0.5,
+    [3] = 0.1,
+    [4] = 0.15,
+    [5] = 0.25,
 }
 
 function UnitDamageTarget(damage_table)
@@ -83,7 +83,7 @@ function PassTheUnitDamageSystem(damage_table)
             end
         end
     elseif DamageTable.victim:HasModifier("modifier_sunny_02_debuff") then
-        local modifier = DamageTable.attacker:FindModifierByName("modifier_sunny_02_debuff")
+        local modifier = DamageTable.victim:FindModifierByName("modifier_sunny_02_debuff")
         local sunny = modifier:GetCaster()
         if sunny ~= nil then
             DamageTable.damage = DamageTable.damage * ( 1 + (thtd_sunny_damage_bonus[sunny:THTD_GetStar()] or 0))
@@ -201,6 +201,10 @@ function ReturnAfterTaxDamage(DamageTable)
 
     if DamageTable.damage_type == DAMAGE_TYPE_MAGICAL then
         local magicArmor = target:GetMagicalArmorValue() * 100
+
+        if unit:HasModifier("modifier_patchouli_03_buff") then
+            DamageTable.damage = DamageTable.damage * 1.3
+        end
         
         if unit.thtd_magical_damage_outgoing ~= nil and unit.thtd_magical_damage_outgoing ~= 0 then
             DamageTable.damage = DamageTable.damage * (1 + unit.thtd_magical_damage_outgoing/100)

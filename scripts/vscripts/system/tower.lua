@@ -1396,10 +1396,10 @@ thtd_ability_table =
 	["sanae"] = 
 	{
 		[1] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 1,["thtd_sanae_03"] = 0,["thtd_sanae_04"] = 0},
-		[2] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 1,["thtd_sanae_03"] = 0,["thtd_sanae_04"] = 0},
-		[3] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 1,["thtd_sanae_03"] = 0,["thtd_sanae_04"] = 0},
-		[4] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 1,["thtd_sanae_03"] = 1,["thtd_sanae_04"] = 0},
-		[5] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 1,["thtd_sanae_03"] = 1,["thtd_sanae_04"] = 0},
+		[2] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 2,["thtd_sanae_03"] = 0,["thtd_sanae_04"] = 0},
+		[3] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 3,["thtd_sanae_03"] = 0,["thtd_sanae_04"] = 0},
+		[4] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 4,["thtd_sanae_03"] = 1,["thtd_sanae_04"] = 0},
+		[5] = {["thtd_sanae_01"] = 1,["thtd_sanae_02"] = 5,["thtd_sanae_03"] = 1,["thtd_sanae_04"] = 0},
 	},
 
 	["kanako"] = 
@@ -1529,34 +1529,34 @@ thtd_ability_table =
 
 	["medicine"] = {
 		[1] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 0},
-		[2] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 0},
-		[3] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 1},
-		[4] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 1},
-		[5] = {["thtd_medicine_01"] = 1,["thtd_medicine_02"] = 1},
+		[2] = {["thtd_medicine_01"] = 2,["thtd_medicine_02"] = 0},
+		[3] = {["thtd_medicine_01"] = 3,["thtd_medicine_02"] = 1},
+		[4] = {["thtd_medicine_01"] = 4,["thtd_medicine_02"] = 1},
+		[5] = {["thtd_medicine_01"] = 5,["thtd_medicine_02"] = 1},
 	},
 
 	["luna"] = {
-		[1] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 0,["thtd_luna_03"] = 0},
-		[2] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 0,["thtd_luna_03"] = 0},
-		[3] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1,["thtd_luna_03"] = 0},
-		[4] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1,["thtd_luna_03"] = 0},
-		[5] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1,["thtd_luna_03"] = 0},
+		[1] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 0},
+		[2] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 0},
+		[3] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1},
+		[4] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1},
+		[5] = {["thtd_luna_01"] = 1,["thtd_luna_02"] = 1},
 	},
 
 	["sunny"] = {
-		[1] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 0,["thtd_sunny_03"] = 0},
-		[2] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 0,["thtd_sunny_03"] = 0},
-		[3] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1,["thtd_sunny_03"] = 0},
-		[4] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1,["thtd_sunny_03"] = 0},
-		[5] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1,["thtd_sunny_03"] = 0},
+		[1] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 0},
+		[2] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 0},
+		[3] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1},
+		[4] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1},
+		[5] = {["thtd_sunny_01"] = 1,["thtd_sunny_02"] = 1},
 	},
 
 	["star"] = {
-		[1] = {["thtd_star_01"] = 1,["thtd_star_02"] = 0,["thtd_star_03"] = 0},
-		[2] = {["thtd_star_01"] = 2,["thtd_star_02"] = 0,["thtd_star_03"] = 0},
-		[3] = {["thtd_star_01"] = 3,["thtd_star_02"] = 1,["thtd_star_03"] = 0},
-		[4] = {["thtd_star_01"] = 4,["thtd_star_02"] = 1,["thtd_star_03"] = 0},
-		[5] = {["thtd_star_01"] = 5,["thtd_star_02"] = 1,["thtd_star_03"] = 0},
+		[1] = {["thtd_star_01"] = 1,["thtd_star_02"] = 0},
+		[2] = {["thtd_star_01"] = 2,["thtd_star_02"] = 0},
+		[3] = {["thtd_star_01"] = 3,["thtd_star_02"] = 1},
+		[4] = {["thtd_star_01"] = 4,["thtd_star_02"] = 1},
+		[5] = {["thtd_star_01"] = 5,["thtd_star_02"] = 1},
 	},
 }		
 
@@ -1958,7 +1958,7 @@ function CDOTA_BaseNPC:THTD_SetLevel(level)
 
 	self:THTD_AddPower(thtd_power_table[unitName][self.thtd_star][2]*(upLevel))
 	local modifier = self:FindModifierByName("modifier_shinki_02_power_up_bonus_buff")
-	if modifier ~= nil and upLevel > 0 then
+	if modifier ~= nil and upLevel > 0 and SpawnSystem:GetWave() <= 51 then
 		local caster = modifier:GetCaster()
 		self:THTD_AddPower(caster:THTD_GetStar()*2*(upLevel))
 	end
@@ -1986,7 +1986,7 @@ function CDOTA_BaseNPC:THTD_LevelUp(level)
 
 	self:THTD_AddPower(thtd_power_table[unitName][self.thtd_star][2]*level)
 	local modifier = self:FindModifierByName("modifier_shinki_02_power_up_bonus_buff")
-	if modifier ~= nil then
+	if modifier ~= nil and SpawnSystem:GetWave() <= 51 then
 		local caster = modifier:GetCaster()
 		self:THTD_AddPower(caster:THTD_GetStar()*2*level)
 	end
